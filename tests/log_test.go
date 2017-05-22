@@ -16,7 +16,7 @@ const (
 
 func Test_Action_GetAll(t *testing.T) {
 	// get all actions
-	res, err := http.Get(base_url + "/")
+	res, err := http.Get(base_url + "/1")
 	if err != nil {
 		t.Log("erro : ", err)
 		return
